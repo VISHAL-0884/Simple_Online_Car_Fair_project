@@ -1,0 +1,318 @@
+﻿.bnr
+{
+    height:220px;
+    width:100%;
+    background-color:#000080;
+}
+.bnr2
+{
+    height:60px;
+    width :73%;
+    background-color :transparent;
+    margin-top:-100px;
+    margin-left :320px;
+    text-align: left;
+}
+.A
+{
+    height:45px;
+    width :100%;
+    background-color :#000080;
+    margin-top: 0px;
+}
+.Abtn
+{
+    margin-top :10px;
+    background-color :White 
+}
+
+.Mdiv
+{
+    height:550px;
+    width:100%;
+    background-color:#C4DFE6;
+    text-decoration: underline;
+}
+.fdiv
+{
+    height:350px;
+    width:100%;
+    background-coloR:#CD7213;
+    margin-top:0px;
+}
+.Ldiv
+{
+    height :570px;
+    width :100%;
+    background-image :url("http://localhost:1594/CPk.project/B2.img/colortheory.jpg");
+}
+.L2div
+{
+    height :500px;
+    width:400px;
+    background-color:#FFEBCD;
+    margin-left:460px;
+    margin-top:20px;
+  }
+  .lbtn
+  {
+       display: inline-block;
+     cursor : pointer;
+  
+ }
+
+.lbtn:hover 
+{
+    background-color: 10px 15px #3e8e41;
+ }
+
+.lbtn:active 
+{
+  background-color:#8B0A50 ;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.Rdiv
+{
+    height :550px;
+    width :100%;
+    background-color:transparent;
+}
+
+   .R2div
+{
+    height :500px;
+    width:574px;
+    background-color:#E2E8E4;
+    margin-left:300px;
+    margin-top :20px;
+}   
+.Rbtn
+  {
+    display: inline-block;
+    padding: 15px 25px;
+    cursor: pointer;
+    background-color:#20B2AA;
+    font-size: x-large;
+}
+
+.Rbtn:hover 
+{
+    background-color: 10px 15px #FFFAF0;
+ }
+
+.Rbtn:active 
+{
+  background-color:#90EE90;
+  box-shadow: 0 3px #666;
+  transform: translateY(4px);
+}
+.Odiv
+{
+  height :550px;
+    width :100%;
+    background-color :transparent;
+}
+.O2div
+{
+    height :500px;
+    width :500px;
+    background-color :#EC96A4;
+    margin-left :400px;
+    margin-top :20px;
+    text-align: center;
+}
+.cdiv
+{ 
+    height:550px;
+    width :100%;
+    background-color:transparent;
+}
+.c2div
+{
+    height :500px;
+    width :542px;
+    background-color :#B3DE81;
+    margin-left :282px;
+    margin-top :20px;
+}
+
+.fpdiv
+{
+    height :550px;
+    width :100%;
+    background-image :url("http://localhost:27415/CPk.project/B2.img/1080p-flower-HD-wallpaper-1.jpg");
+}
+.fp2div
+{
+    height :500px;
+    width:400px;
+    background-color:#4E728E;
+    margin-left:460px;
+    margin-top:20px;
+  }
+  .pddiv
+{
+    height :570px;
+    width :100%;
+    background-image :url("http://localhost:27415/CPk.project/B2.img/277250-full-size-glitter-background-2721x1806.jpg");
+}
+.fbdiv
+{
+    height :550px;
+    width :100%;
+    background-image :url("http://localhost:27415/CPk.project/B2.img/Sky-Light-Wallpaper-And-Backgrounds-3.jpg");
+}
+.fb2div
+{
+    height :500px;
+    width:400px;
+    background-color:;
+    margin-left:460px;
+    margin-top:20px;
+  }
+  .Abdiv
+  {
+      height :539px;
+      width :100%;
+      background-color :#A4CABC;
+  }
+.Cudiv
+{ 
+    height :550px;
+    width :100%;
+    background-image :url('http://localhost:27415/CPk.project/B2.img/Flower-image-for-laptop-1.jpg');
+    text-align: center;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: 700;
+    text-decoration: underline;
+    font-family: "Colonna MT";
+    color: #660033;
+}
+.idiv
+{
+    height :260px;
+    width :225px;
+    background-color:transparent;
+    margin-left :px;
+    text-align: left;
+    margin-top :10px;
+    }
+.i2div
+{
+    height :263px;
+    width :225px;
+    background-color:transparent;
+    margin-left :px;
+    margin-top :10px;
+    margin-right: 0px;
+    text-align: left;
+}
+.i4div
+{
+    height :259px;
+    width :225px;
+    background-color :transparent;
+    margin-left :px;
+    margin-top :10px;
+    text-align: left;
+}
+.i3div
+{
+    height :254px;
+    width :231px;
+    background-color:transparent;
+    margin-left :px;
+    margin-top :10px;
+    text-align: left;
+}
+.i5div
+{
+    height :260px;
+    width :225px;
+    background-color:transparent;
+    margin-left :px;
+    margin-top :10px;
+    text-align: left;
+}
+.i6div
+{
+    height :260px;
+    width :225px;
+    background-color:transparent;
+    margin-left :px;
+    margin-top :20px;
+    text-align: left;
+    
+}
+.i7div
+{
+    height :260px;
+    width :225px;
+    background-color:transparent;
+    margin-left :0px;
+    margin-top :10px;
+    text-align: left;
+}
+
+.i9div
+{
+    height :260px;
+    width :225px;
+    background-color:transparent;
+    margin-left :px;
+    margin-top :10px;
+   
+}
+.i10div
+{
+    height :260px;
+    width :225px;
+    background-color:transparent;
+    margin-left :px;
+    margin-top :10px;
+    text-align: left;
+}
+.i11div
+{
+    height :260px;
+    width :225px;
+    background-color:transparent;
+    margin-left :px;
+    margin-top :px;
+    
+}
+.imgdiv
+{
+    height :350px;
+    width :225px;
+    background-color :transparent;
+    text-align: center;
+}
+.img2div
+{
+    height :350px;
+    width :225px;
+    background-color :transparent ;
+}
+.img3div
+{
+    height :358px;
+    width :214px;
+    background-color :transparent;
+}
+
+.zoom {
+ 
+     transition: transform .3s;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+}

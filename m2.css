@@ -1,0 +1,161 @@
+﻿.sbtn
+{
+    background-image :url("http://localhost:27415/CPk.project/cars/kk2.png");
+}
+
+.hmbtn
+{
+     background-color: #FFEFD5;
+    border-bottom-color :#191970;
+    cursor: pointer;
+    margin-top :-5px;
+    font-style: italic;
+    font-weight: 700;
+    font-size: medium;
+    color: #660033;
+}
+.hmbtn:hover
+{
+    background-color :#FFA500;
+    }
+.aubtn
+{
+    background-color: #FFEFD5;
+    border-bottom-color :#191970;
+    cursor: pointer;
+    margin-top :5px;
+    font-style: italic;
+    font-weight: 700;
+    font-size: medium;
+    color: #660033;
+}
+.aubtn:hover
+{
+    background-color :#FFA500;
+}
+ .cvbtn
+{
+     background-color: #FFEFD5;
+    border-bottom-color :#191970;
+    cursor: pointer;
+    margin-top :5px;
+    font-style: italic;
+    font-weight: 700;
+    font-size: medium;
+    color: #660033;
+    text-align: center;
+}
+.cvbtn:hover
+{
+    background-color :#FFA500;
+}
+.cubtn
+{
+   background-color: #FFEFD5;
+    border-bottom-color :#191970;
+    cursor: pointer;
+    margin-top :5px;
+    font-style: italic;
+    font-weight: 700;
+    font-size: medium;
+    color: #660033;
+}
+.cubtn:hover
+{
+    background-color :#FFA500;
+}
+   
+.sibtn
+{
+     background-color: #FFEFD5;
+    border-bottom-color :#191970;
+    cursor: pointer;
+    margin-top :5px;
+    color: #660033;
+    font-style: italic;
+    font-weight: 700;
+    font-size: medium;
+}
+.sibtn:hover
+{
+    background-color :#FFA500;
+}
+.subtn
+{ background-color: #FFEFD5;
+    border-bottom-color :#191970;
+    cursor: pointer;
+    margin-top :5px;
+    color: #660033;
+    font-style: italic;
+    font-size: medium;
+    font-weight: 700;
+}
+.subtn:hover
+{
+    background-color :#FFA500;
+}
+
+
+.div
+{
+    background-color:White;
+    height : 369px;
+    width :100%;
+    margin-top: 0px;
+}
+.i8div
+{
+    height :260px;
+    width :225px;
+    background-color:Aqua ;
+    margin-left :550px;
+    margin-top :-200px;
+}
+.pridiv
+{
+    height :500px;
+    width :50%;
+    background-color:#F1F1F2 ;
+    margin-left :200px;
+    margin-top :10px;
+}
+.divf_1
+{
+    height :200px;
+    width :250px;
+    background-color :transparent ;
+}
+.divf_2
+{
+    height :200px;
+    width :250px;
+    background-color :transparent ;
+    margin-left :250px;
+    margin-top :-200px;
+}
+.divf_3
+{
+    height :200px;
+    width :250px;
+    background-color :transparent ;
+    margin-left :500px;
+    margin-top :-200px;
+}
+.divf_4
+{
+    height :200px;
+    width :250px;
+    background-color :transparent;
+    margin-left :750px;
+    margin-top :-200px;
+    text-align: left;
+}
+.divf_5
+{
+    height :200px;
+    width :26s0px;
+    background-color :transparent ;
+    margin-left :1000px;
+    margin-top :-200px;
+}
+    

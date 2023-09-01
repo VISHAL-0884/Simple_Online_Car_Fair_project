@@ -1,0 +1,403 @@
+﻿<%@ Master Language="C#" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<script runat="server">
+
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("Home.aspx");
+    }
+
+    protected void Button2_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("Product.aspx");
+    }
+
+    protected void Button3_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("aboutus.aspx");
+    }
+
+    protected void Button4_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("contactus.aspx");
+    }
+
+    protected void Button5_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("login.aspx");
+    }
+
+    protected void Button6_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("reg.aspx");
+     
+    }
+
+    protected void Page_Load(object sender, EventArgs e)
+    {
+
+    }
+
+    protected void Button7_Click(object sender, EventArgs e)
+    {
+
+    }
+</script>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<link href="m.css" rel="stylesheet" type="text/css" />
+<link href="m2.css" rel="stylesheet" type="text/css" />
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+            height: 23px;
+        }
+        .style3
+        {
+            height: 23px;
+            text-align: center;
+        }
+        .style8
+        {
+            font-weight: bold;
+            font-style: italic;
+        }
+        .style9
+        {
+            height: 26px;
+            font-weight: bold;
+            font-style: italic;
+        }
+        .style10
+        {
+            height: 44px;
+        }
+        .style11
+        {
+            height: 44px;
+            width: 100px;
+        }
+        .style12
+        {
+            width: 100px;
+        }
+        .style15
+        {
+            text-align: center;
+            font-style: italic;
+            font-weight: bold;
+            color: #FFFFFF;
+        }
+        .style17
+        {
+            height: 23px;
+            font-weight: bold;
+            font-style: italic;
+        }
+        .style18
+        {
+            font-size: medium;
+            font-weight: bold;
+            color: #FFFFFF;
+        }
+        .style19
+        {
+            font-size: medium;
+            color: #FFFFFF;
+        }
+        .style20
+        {
+            font-weight: bold;
+            font-style: italic;
+            font-size: medium;
+            color: #FFFFFF;
+            text-decoration: underline;
+        }
+        .style21
+        {
+            height: 23px;
+            font-weight: bold;
+            font-style: italic;
+            font-size: medium;
+            color: #FFFFFF;
+        }
+        .style22
+        {
+            text-align: center;
+            color: #FFFFFF;
+            font-size: medium;
+            font-style: italic;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+        .style23
+        {
+            font-size: medium;
+            color: #FFFFFF;
+            text-decoration: underline;
+        }
+        .style24
+        {
+            text-align: center;
+            color: #FFFFFF;
+            font-size: medium;
+            font-style: italic;
+            font-weight: bold;
+        }
+        .style25
+        {
+            color: #FFFFFF;
+        }
+        .style28
+        {
+            color: #FF99FF;
+            font-size: medium;
+        }
+        </style>
+</head>
+
+<form id="form1" runat="server">
+
+<table class="style1">
+    <tr>
+        <td>
+            <div class=bnr>
+                <br />
+&nbsp;&nbsp;
+                <asp:Image ID="Image1" runat="server" BorderStyle="None" Height="180px" 
+                    ImageUrl="~/Admin/img/carfair.jpg" Width="250px" />
+                <br />
+                <br />
+                <br />
+                <div class =bnr2>
+                <asp:Button ID="Button1" runat="server" BorderStyle="None" Height="35px" 
+                    Text="Home" Width="120px" class="hmbtn " onclick="Button1_Click" 
+                    style="position: relative; top: 0px; left: 14px; text-align: center;" />p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:Button ID="Button2" runat="server" Text=" Car view" BorderStyle="None" 
+                    Height="35px" Width="120px" class="cvbtn" onclick="Button2_Click" />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:Button ID="Button3" runat="server" Text="About us" BorderStyle="None" 
+                    Height="35px" Width="120px" class="aubtn " onclick="Button3_Click" />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:Button ID="Button4" runat="server" Text="Contact us" BorderStyle="None" 
+                    Height="35px" Width="120px"  class="cubtn " onclick="Button4_Click"/>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:Button ID="Button5" runat="server" Text="Sign in" BorderStyle="None" 
+                    Height="35px" Width="120px" class="sibtn " onclick="Button5_Click" />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:Button ID="Button6" runat="server" Text="Sign up" BorderStyle="None" 
+                    Height="35px" Width="120px"  class="subtn " onclick="Button6_Click"/>
+                </div>
+            </div></td>
+    </tr>
+   
+    <tr>
+        <td>
+            <div class =Mdiv>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div></td>
+    </tr>
+    <tr>
+        <td>
+            <div class=fdiv >
+            <div class=divf_1 >
+                <table class="style1">
+                    <tr>
+                        <td class="style22">
+       <table class="style1">
+           <tr>
+               <td align="center" class="style20">
+                   HELP</td>
+           </tr>
+           </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="style24">
+                   Track Your Order</td>
+                    </tr>
+                    <tr>
+                        <td class="style24">
+                   Refund Policy</td>
+                    </tr>
+                    <tr>
+                        <td class="style24">
+                   Delivery &amp; Shipping</td>
+                    </tr>
+                    <tr>
+                        <td class="style24">
+                   FAQs</td>
+                    </tr>
+                    <tr>
+                        <td class="style24">
+                   Terms &amp; Conditions</td>
+                    </tr>
+                </table>
+                <br />
+                </div>
+            <div class =divf_2 >
+                <table class="style1">
+                    <tr>
+                        <td class="style22">
+                   Customer Care</td>
+                    </tr>
+                    <tr>
+                        <td class="style15">
+                            <span class="style19">&nbsp; </span><i>
+                            <asp:ImageButton ID="ImageButton1" runat="server" CssClass="style19" 
+                                Height="21px" ImageUrl="~/payment/phone.png" Width="26px" />
+                            <span class="style19">&nbsp;
+                   +919874152210</span></i></td>
+                    </tr>
+                    <tr>
+                        <td class="style15">
+                            <span class="style19">Mon.To.Sat.09:30am</span><i><br class="style19" /> 
+                            <span class="style19">To 06.00pm(IST)</span></i></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &nbsp;</td>
+                    </tr>
+                </table>
+                </div>
+            <div class =divf_3 >
+                <table class="style1">
+                    <tr>
+                        <td class="style20">
+                   Stay Connected</td>
+                    </tr>
+                    <tr>
+                        <td class="style21">
+                            <span class="style19">&nbsp;</span><b><asp:ImageButton ID="ImageButton2" 
+                                runat="server" CssClass="style19" Height="23px" ImageUrl="~/payment/fb (2).jpg" 
+                                Width="26px" />
+                            <span class="style19">Facebook</span></b></td>
+                    </tr>
+                    <tr>
+                        <td class="style17">
+                            <asp:ImageButton ID="ImageButton3" runat="server" CssClass="style19" 
+                                Height="23px" ImageUrl="~/payment/twtr.jpg" Width="26px" />
+                            <span class="style18">Twitter</span></td>
+                    </tr>
+                    <tr>
+                        <td class="style8">
+                            <asp:ImageButton ID="ImageButton4" runat="server" CssClass="style19" 
+                                Height="23px" ImageUrl="~/payment/download (3).jpg" Width="26px" />
+                            <span class="style18">Youtube</span></td>
+                    </tr>
+                    <tr>
+                        <td class="style9">
+                            <asp:ImageButton ID="ImageButton5" runat="server" CssClass="style19" 
+                                Height="22px" ImageUrl="~/payment/instr.jpg" Width="26px" />
+                            <span class="style18">Instragram</span></td>
+                    </tr>
+                    <tr>
+                        <td class="style9">
+                            <asp:ImageButton ID="ImageButton6" runat="server" CssClass="style19" 
+                                Height="23px" ImageUrl="~/payment/download (4).jpg" Width="26px" />
+                            <span class="style18">Pinterest</span></td>
+                    </tr>
+                    <tr>
+                        <td class="style9">
+                            <asp:ImageButton ID="ImageButton7" runat="server" CssClass="style19" 
+                                Height="23px" ImageUrl="~/payment/whatsaapp.jpg" Width="26px" />
+                            <span class="style18">Whatsapp</span></td>
+                    </tr>
+                </table>
+                </div>
+            <div class =divf_4 >
+                <table class="style1">
+                    <tr>
+                        <td class="style3" colspan="2">
+&nbsp;<span class="style23"><em><strong>Payment Options</strong></em></span></td>
+                    </tr>
+                    <tr>
+                        <td class="style11">
+                            <asp:ImageButton ID="ImageButton8" runat="server" Height="40px" 
+                                ImageUrl="~/payment/axis.png" Width="70px" />
+                        </td>
+                        <td class="style10">
+                            <asp:ImageButton ID="ImageButton15" runat="server" Height="40px" 
+                                ImageUrl="~/payment/download (1).png" Width="70px" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="style12">
+                            <asp:ImageButton ID="ImageButton9" runat="server" Height="40px" 
+                                ImageUrl="~/payment/bob1.png" Width="70px" />
+                        </td>
+                        <td>
+                            <asp:ImageButton ID="ImageButton14" runat="server" Height="40px" 
+                                ImageUrl="~/payment/download.png" Width="70px" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="style12">
+                            <asp:ImageButton ID="ImageButton10" runat="server" Height="40px" 
+                                ImageUrl="~/payment/icici.png" Width="70px" />
+                        </td>
+                        <td>
+                            <asp:ImageButton ID="ImageButton13" runat="server" Height="40px" 
+                                ImageUrl="~/payment/union12.png" Width="70px" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="style12">
+                            <asp:ImageButton ID="ImageButton11" runat="server" Height="40px" 
+                                ImageUrl="~/payment/images (2).jpg" Width="70px" />
+                        </td>
+                        <td>
+                            <asp:ImageButton ID="ImageButton12" runat="server" Height="40px" 
+                                ImageUrl="~/payment/bob2.jpg" Width="70px" />
+                        </td>
+                    </tr>
+                </table>
+                <br />
+                <br />
+                </div>
+            <div class =divf_5 >
+            <table class="style1">
+            <tr>
+                <td class="style2" id="f_txt">
+                    <span class="style23">SingUp For Regular Updates & Offe</span><span 
+                        class="style25">r</span></td>
+            </tr>
+            <tr>
+                <td class="style2">
+                    <br />
+                    <asp:TextBox ID="TextBox2" runat="server" Width="225px" 
+                        placeholder="Enter Your Emai-Id" class="input" Height="30px"></asp:TextBox>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:Button ID="Button7" runat="server" Text="Subscribe" 
+                        style="color: #000066; font-weight: 700; font-size: large; background-color: #FFCCCC" onclick="Button7_Click" 
+                        />
+                </td>
+            </tr>
+        </table>
+                </div>
+                 <hr />
+        <br />
+        
+    <h2><center class="style28">Copyright | Site.com All Right Reserved Design By vishal parmar</center></h2>
+
+            </div></td>
+    </tr>
+    </table>
+
+<br />
+
+</form>
+
+
+</html>

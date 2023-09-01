@@ -1,0 +1,90 @@
+﻿.ARbtn
+{
+     background-color: #FFEFD5;
+    border-bottom-color :#191970;
+    cursor: pointer;
+    margin-top :-5px;
+    font-style: italic;
+    font-weight: 700;
+    font-size: medium;
+    color: #660033;
+}
+.ARbtn:hover
+{
+    background-color :#FFA500;
+}
+.btn2
+{
+     background-color: #FFEFD5;
+    border-bottom-color :#191970;
+    cursor: pointer;
+    margin-top :-5px;
+    font-style: italic;
+    font-weight: 700;
+    font-size: large;
+    color: #0000CC;
+    font-family: Corbel;
+}
+.btn2:hover
+{
+    background-color :#FFA500;
+}
+.btn3
+{
+     background-color: #FFEFD5;
+    border-bottom-color :#191970;
+    cursor: pointer;
+    margin-top :-5px;
+    font-style: italic;
+    font-weight: 700;
+    font-size: large;
+    color: #0000CC;
+    font-family: Corbel;
+}
+.btn3:hover
+{
+    background-color :#FFA500;
+}
+
+.Rdiv
+{
+    height:600px;
+    width:100%;
+    background-color:Purple ;
+}
+.Rdiv2
+{
+    height:450px;
+    width:70%;
+    background-color:White ;
+    margin-top:40px;
+    margin-left :300px;
+}
+.AOdiv
+{
+    height:600px;
+    width:100%;
+    background-color:Black ;
+}
+.AOdiv2
+{
+    height:450px;
+    width:70%;
+    background-color:White ;
+    margin-top:40px;
+    margin-left :300px;
+}
+.AFdiv
+{
+    height:600px;
+    width:100%;
+    background-color:Teal ;
+}
+.AFdiv2
+{
+    height:450px;
+    width:70%;
+    background-color:White ;
+    margin-top:40px;
+    margin-left :300px;
+}

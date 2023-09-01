@@ -1,0 +1,90 @@
+﻿.bnr
+{
+    height :250px;
+    width :100%;
+    background-color:#d50b53 ;
+}
+.cdiv
+{
+    height :300px;
+    width :100%;
+    background-color:#f4f3f4;
+    margin-top :;
+
+}
+.f2div
+{
+    height :200px;
+    width :100%;
+    background-color :#a882c1 ;
+}
+.ALdiv
+{
+    height :300px;
+    width :100%;
+    background-color :#c2d3da;
+}
+.ALdiv2
+{
+    height:250px;
+    width :400px;
+    background-color:transparent ;
+    margin-left :500px;
+    margin-top :20px;
+}
+.Asub
+  {
+    cursor: pointer;
+  }
+
+.Asub:hover 
+{
+    background-color: 10px 15px #FFFAF0;
+ }
+
+.Asub:active 
+{
+  background-color:#90EE90;
+  box-shadow: 0 3px #666;
+  transform: translateY(4px);
+}
+.Alog
+{
+    height:800px;
+    width:100%;
+    background-image :url("http://localhost:1594/CPk.project/Admin/Product Image/thumb_big5.jpg");
+}
+.Adiv
+{
+    height:400px;
+    width:450px;
+    background-color:transparent;
+    margin-left :600px;
+    margin-top :200px;
+}
+.Abtn
+{
+    height :35px;
+    width :150px;
+    background-color:Orange ;
+    border-bottom-color :#191970;
+    cursor: pointer;
+    margin-top :5px;
+    color: #660033;
+    font-style: italic;
+    font-size: medium;
+    font-weight: 700;
+}
+.Abtn:hover
+{
+    background-color :#FFA500;
+}
+.Bdiv
+{
+    height:30px;
+    width:60%;
+    margin-left :350px;
+    margin-top:-90px;
+    font-style: italic;
+    font-weight: 700;
+}
